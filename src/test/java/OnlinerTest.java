@@ -1,2 +1,2 @@
-public class ArrayListTest extends BaseTest {
+public class OnlinerTest extends BaseTest {
 }
