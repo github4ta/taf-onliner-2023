@@ -41,6 +41,7 @@ public class OnlinerPage {
     public void clickInputButtonForum() {
 
         driver.findElement(By.xpath(inputButtonForum)).click();
+
     }
 
 }
