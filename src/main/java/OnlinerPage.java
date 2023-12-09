@@ -1,12 +1,17 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
 public class OnlinerPage {
-    private String Url = ("https://www.onliner.by/");
+    WebDriver driver;
+
+    public OnlinerPage(WebDriver driver) {
+        this.driver = driver;
+    }
+
+    private String url = ("https://www.onliner.by/");
     private String copyRightFooter = "//div[@class='footer-style__copy']";
 
-    public String getUrl() {
-        driver.get(Url);
-
-        public String getCopyRightFooter () {
-            return driver.findElement(By.xpath(copyRightFooter));
-        }
+    public String getCopyRightFooter() {
+        return driver.findElement(By.xpath(copyRightFooter)).getText();
     }
 }
