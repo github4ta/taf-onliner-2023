@@ -6,6 +6,7 @@ public class ResolveConflict {
         return pakulnitskaya;
     }
 
+
     public static String getVorontsova() {
         return vorontsova;
     }
