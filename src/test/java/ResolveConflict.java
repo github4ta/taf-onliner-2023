@@ -6,9 +6,11 @@ public class ResolveConflict {
     public static String getVorontsova() {
        return vorontsova;
     }
+
     public static String getAkachenok() {
         return akachenok;
     }
+
     public static String getKishkevich() {
         return kishkevich;
     }
