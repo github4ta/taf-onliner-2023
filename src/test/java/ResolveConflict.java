@@ -11,7 +11,6 @@ public class ResolveConflict {
     public static String vorontsova;
 
     public static String getAkachenok() {
-
         return akachenok;
 
     }
