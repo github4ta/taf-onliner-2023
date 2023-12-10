@@ -34,16 +34,16 @@ public class ResolveConflict {
         return myshkevich;
     }
 
-    public static String getShlesin() {
-        return shlesin;
+     public static String getPakulnitskaya() {
+        return pakulnitskaya;
     }
 
     public static String getSenkina() {
         return senkina;
     }
 
-    public static String getPakulnitskaya() {
-        return pakulnitskaya;
+    public static String getShlesin() {
+        return shlesin;
     }
 
     public static String getVorontsova() {
