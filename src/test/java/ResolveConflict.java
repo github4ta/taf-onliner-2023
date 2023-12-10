@@ -1,6 +1,6 @@
 public class ResolveConflict {
-   public static String zhizneskaya;
-    public static String get(){
-        return zhizneskaya;
+    public static String vorontsova;
+    public static String getVorontsova() {
+       return vorontsova;
     }
 }
