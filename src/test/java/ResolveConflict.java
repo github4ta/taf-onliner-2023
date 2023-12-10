@@ -10,6 +10,7 @@ public class ResolveConflict {
     }
 
     public static String getKishkevich () {
+
         return kishkevich;
     }
 
