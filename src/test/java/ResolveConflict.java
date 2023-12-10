@@ -12,7 +12,6 @@ public class ResolveConflict {
 
     public static String getAkachenok() {
         return akachenok;
-
     }
 
     public static String getBakumenko() {
@@ -21,7 +20,6 @@ public class ResolveConflict {
 
     public static String getIvanchikov() {
         return ivanchikov;
-
     }
 
     public static String getKishkevich() {
