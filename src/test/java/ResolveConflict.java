@@ -10,14 +10,8 @@ public class ResolveConflict {
     public static String getAkachenok() {
         return akachenok;
     }
-
     public static String getBakumenko() {
         return bakumenko;
     }
 
-    public static String bakumenko;
-
-    public static String getBakumenko() {
-        return bakumenko;
-    }
 }
