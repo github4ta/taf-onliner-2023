@@ -1,16 +1,15 @@
 public class ResolveConflict {
     public static String vorontsova;
     public static String akachenok;
-    public static String zhiznevskaya;
+    public static String shlesin;
 
     public static String getVorontsova() {
-        return vorontsova;
+       return vorontsova;
     }
     public static String getAkachenok() {
         return akachenok;
     }
-    public static String getZhiznevskaya() {
-        return zhiznevskaya;
+    public static String getShlesin() {
+        return shlesin;
     }
-
 }
