@@ -1,4 +1,5 @@
 public class ResolveConflict {
+    public static String vorontsova;
     public static String akachenok;
     public static String bakumenko;
     public static String ivanchikov;
@@ -8,7 +9,6 @@ public class ResolveConflict {
     public static String pakulnitskaya;
     public static String senkina;
     public static String shlesin;
-    public static String vorontsova;
 
     public static String getAkachenok() {
         return akachenok;
@@ -47,6 +47,7 @@ public class ResolveConflict {
     }
 
     public static String getVorontsova() {
-        return vorontsova;
+       return vorontsova;
     }
+
 }
