@@ -16,4 +16,9 @@ public class ResolveConflict {
         return bakumenko;
     }
 
+    public static String bakumenko;
+
+    public static String getBakumenko() {
+        return bakumenko;
+    }
 }
