@@ -1,5 +1,6 @@
 public class ResolveConflict {
     public static String akachenok;
+    public static String bakumenko;
     public static String ivanchikov;
     public static String kishkevich;
     public static String moskalew;
@@ -12,13 +13,16 @@ public class ResolveConflict {
 
     }
 
+    public static String getBakumenko() {
+        return bakumenko;
+    }
+
     public static String getIvanchikov() {
         return ivanchikov;
 
     }
 
     public static String getKishkevich() {
-
         return kishkevich;
     }
 
