@@ -2,8 +2,9 @@ public class ResolveConflict {
     public static String vorontsova;
 
     public static String ivanchikov;
-    public static String vorontsova;
+
     public static String akachenok;
+    public static String myshkevich;
 
     public static String shlesin;
     public static String kishkevich;
@@ -23,9 +24,9 @@ public class ResolveConflict {
         return ivanchikov;
 
 
-    public static String myshkevich;
+    }
 
     public static String getMyshkevich() {
-       return myshkevich;
+        return myshkevich;
     }
 }
