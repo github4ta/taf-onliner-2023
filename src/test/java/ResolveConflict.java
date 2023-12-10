@@ -2,6 +2,7 @@ public class ResolveConflict {
     public static String vorontsova;
     public static String akachenok;
     public static String shlesin;
+    public static String kishkevich;
 
     public static String getVorontsova() {
        return vorontsova;
