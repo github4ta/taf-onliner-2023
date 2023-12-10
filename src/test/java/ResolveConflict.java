@@ -1,12 +1,9 @@
 public class ResolveConflict {
     public static String vorontsova;
-
     public static String ivanchikov;
     public static String vorontsova;
     public static String akachenok;
     public static String senkina;
-
-
     public static String shlesin;
     public static String kishkevich;
     public static String moskalew;
