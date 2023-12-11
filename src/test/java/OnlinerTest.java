@@ -3,9 +3,7 @@ import org.junit.jupiter.api.Test;
 
 public class OnlinerTest extends BaseTest {
     @Test
-    public void
-
-    public void testServiceUslugi() {
+        public void testServiceUslugi() {
         driver.get("https://www.onliner.by/");
         OnlinerPage onlinerPage = new OnlinerPage(driver);
         onlinerPage.clickInputButtonUslugi();
