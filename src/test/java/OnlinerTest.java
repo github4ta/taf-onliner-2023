@@ -7,6 +7,6 @@ public class OnlinerTest extends BaseTest {
         driver.get("https://www.onliner.by/");
         OnlinerTest onlinerTest=new OnlinerTest(driver);
         onlinerTest.clickInputButtonUslugi();
-        Assertions.assertEquals("Услуги","Услуги");
+        Assertions.assertEquals("Заказы","Заказы");
     }
 }
