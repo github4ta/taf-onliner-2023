@@ -9,4 +9,14 @@ public class OnlinerTest extends BaseTest {
         onlinerTest.clickInputButtonUslugi();
         Assertions.assertEquals("Заказы","Заказы");
     }
+
+    @Test
+    public void testBaraholkaPageOpened() {
+        driver.get("https://www.onliner.by/");
+        OnlinerPage onlinerPage = new OnlinerPage(driver);
+        onlinerPage.clickInputButtonBaraholka();
+        BaraholkaPage baraholkaPage = new BaraholkaPage(driver);
+        Assertions.assertEquals("Барахолка", baraholkaPage.getTitleText());
+    }
+
 }
