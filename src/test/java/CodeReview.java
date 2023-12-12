@@ -13,7 +13,7 @@ public class CodeReview {
     String name11 = "Сенькина ЮлиА";
     String name12 = "Сырцева Ан_а";
     String name13 = "Шлесин ДИмитрий";
-    String name14 = "Иванчиков ДмитрЕй";
+    String name14 = "Иванчиков Дмитрий";
     String name15 = "Бакуменко К_ения";
     String name16 = "Царик СергИй";
 }
