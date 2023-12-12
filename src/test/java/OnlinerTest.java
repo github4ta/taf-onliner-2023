@@ -29,5 +29,13 @@ public class OnlinerTest extends BaseTest {
         onlinerPage.getCopyRightFooter();
         Assertions.assertEquals("© 2001—2023 Onlíner", onlinerPage.getCopyRightFooter());
     }
+    @Test
+    public void testWithTitleForum() throws InterruptedException {
+        driver.get("https://www.onliner.by/");
+        ForumPage forum = new ForumPage(driver);
+        forum.clickButtonForum();
+        Thread.sleep(2000);
+        Assertions.assertEquals("Форум", forum.getTitleText());
+    }
 
 }
