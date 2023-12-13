@@ -3,6 +3,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class LoginTest extends BaseTest {
+
     @Test
     @DisplayName("UI-0200")
     public void testOpeningLoginFormTitle() {
@@ -11,5 +12,4 @@ public class LoginTest extends BaseTest {
         loginPage.clickInputButtonLoginUserAccount();
         Assertions.assertEquals("Вход", loginPage.getTitleLoginForm());
     }
-
 }
