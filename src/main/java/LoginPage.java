@@ -14,7 +14,6 @@ public class LoginPage {
     }
 
     public void clickInputButtonLoginUserAccount() {
-
         driver.findElement(By.xpath(inputButtonLoginUserAccount)).click();
     }
 
