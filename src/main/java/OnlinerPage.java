@@ -10,7 +10,7 @@ public class OnlinerPage {
     private final String inputButtonForum = "//a[@href='https://forum.onliner.by/']//span[@class='b-main-navigation__text']";
     private final String url = ("https://www.onliner.by/");
     private final String copyRightFooter = "//div[@class='footer-style__copy']";
-    private final String stringSearch = "//input[@class='search__input']";
+    private final String stringSearch = "//*[@id=\"fast-search\"]/form/input[1]";
 
     public OnlinerPage(WebDriver driver) {
         this.driver = driver;
