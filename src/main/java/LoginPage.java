@@ -20,4 +20,4 @@ public class LoginPage {
     public String getTitleLoginForm() {
         return driver.findElement(By.xpath(titleLoginForm)).getText();
     }
-}
+   }

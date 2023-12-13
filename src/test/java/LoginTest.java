@@ -12,4 +12,5 @@ public class LoginTest extends BaseTest {
         loginPage.clickInputButtonLoginUserAccount();
         Assertions.assertEquals("Вход", loginPage.getTitleLoginForm());
     }
+
 }
