@@ -10,6 +10,8 @@ public class OnlinerPage {
     private final String inputButtonForum = "//a[@href='https://forum.onliner.by/']//span[@class='b-main-navigation__text']";
     private final String url = ("https://www.onliner.by/");
     private final String copyRightFooter = "//div[@class='footer-style__copy']";
+
+
     public OnlinerPage(WebDriver driver) {
         this.driver = driver;
     }
@@ -43,6 +45,8 @@ public class OnlinerPage {
         driver.findElement(By.xpath(inputButtonForum)).click();
 
     }
+
+
 
 }
 
