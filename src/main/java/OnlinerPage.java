@@ -47,9 +47,8 @@ public class OnlinerPage {
     }
 
     public void clickTextStringSearch() {
-        driver.findElement(By.xpath(stringSearch)).click();
+        driver.findElement(By.tagName("placeholder")).click();
         driver.findElement(By.xpath(stringSearch)).sendKeys();
+        driver.switchTo().defaultContent();
     }
-
 }
-
