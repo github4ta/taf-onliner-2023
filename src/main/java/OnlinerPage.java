@@ -12,6 +12,9 @@ public class OnlinerPage {
     private final String copyRightFooter = "//div[@class='footer-style__copy']";
     private final String stringSearch = "//*[@id='fast-search']/form/input[1]";
 
+
+
+
     public OnlinerPage(WebDriver driver) {
         this.driver = driver;
     }
