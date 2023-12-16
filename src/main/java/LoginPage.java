@@ -21,9 +21,8 @@ public class LoginPage {
         driver.findElement(By.xpath(inputFieldNikName)).click();
     }
 
-    public String sendKeysInputFieldNikName(String test) {
+    public void sendKeysInputFieldNikName(String test) {
         WebElement inputFieldNikName = driver.findElement(By.xpath(sendKeysInputFieldNikName));
         inputFieldNikName.sendKeys(test);
-        return inputFieldNikName.getText();
-    }
+          }
    }
