@@ -10,6 +10,9 @@ public class OnlinerPage {
     private final String inputButtonForum = "//a[@href='https://forum.onliner.by/']//span[@class='b-main-navigation__text']";
     private final String url = ("https://www.onliner.by/");
     private final String copyRightFooter = "//div[@class='footer-style__copy']";
+    private final String stringSearch = "//*[@id='fast-search']/form/input[1]";
+
+
 
 
     public OnlinerPage(WebDriver driver) {
@@ -46,7 +49,9 @@ public class OnlinerPage {
 
     }
 
-
-
+    public void clickTextStringSearch() {
+        driver.findElement(By.tagName("placeholder")).click();
+        driver.findElement(By.xpath(stringSearch)).sendKeys();
+        driver.switchTo().defaultContent();
+    }
 }
-
