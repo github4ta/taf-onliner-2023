@@ -44,8 +44,6 @@ public class OnlinerTest extends BaseTest {
 
     @Test
     public void testTextFooter(){
-        WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
         driver.get("https://www.onliner.by/");
         WebElement footer = driver.findElement(By.xpath("/html/body/div[4]/footer/div/div/div/div[2]/div[2]"));
         String actualfooter = footer.getText();
